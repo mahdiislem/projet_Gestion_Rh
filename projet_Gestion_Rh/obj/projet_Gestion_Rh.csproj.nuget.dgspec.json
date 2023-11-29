@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2 GLID\\dotnet\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {}
+    "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {}
   },
   "projects": {
-    "C:\\2 GLID\\dotnet\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {
+    "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2 GLID\\dotnet\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
         "projectName": "projet_Gestion_Rh",
-        "projectPath": "C:\\2 GLID\\dotnet\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+        "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\2 GLID\\dotnet\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
