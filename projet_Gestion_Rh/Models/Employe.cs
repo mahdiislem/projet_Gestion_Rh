@@ -14,7 +14,6 @@ namespace projet_Gestion_Rh.Models
         public string nomPrenom { get; set; }
         public String DateNaissance { get; set; }
 
-        public String djjdjdj { get; set; }
 
     }
 }
