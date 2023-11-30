@@ -11,7 +11,7 @@ namespace projet_Gestion_Rh.Models
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    => optionsBuilder.UseSqlServer("Server=DESKTOP-ASL6U64\\MSSQLSERVER1;Database=RhDB;Integrated Security=True;Trust Server Certificate=yes");
+    => optionsBuilder.UseSqlServer("Server=BEST-TECHNOLOGY\\MSSQLSERVER1;Database=RhDB;Integrated Security=True;Trust Server Certificate=yes");
 
         public virtual DbSet<Employe> Employes { get; set; }
         public virtual DbSet<Departement> Departement { get; set; }

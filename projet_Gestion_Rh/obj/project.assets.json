@@ -11110,19 +11110,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asus\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+      "projectUniqueName": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
       "projectName": "projet_Gestion_Rh",
-      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
-      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\",
+      "projectPath": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11192,7 +11192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

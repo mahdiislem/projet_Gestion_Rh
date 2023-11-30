@@ -1,14 +1,28 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using projet_Gestion_Rh.Models;
 
 namespace projet_Gestion_Rh.Controllers
 {
     public class DepartementController : Controller
     {
+
+        private readonly RhDBContext _dbContext;
+        private readonly IWebHostEnvironment webHostEnvironment;
+
+
+
+
+        public DepartementController(RhDBContext dbContext, IWebHostEnvironment webHostEnvironment)
+        {
+            this._dbContext = dbContext;
+            this.webHostEnvironment = webHostEnvironment;
+        }
         // GET: DepartementController
         public ActionResult Index()
         {
-            return View();
+            List<Departement> departements = _dbContext.Departement.ToList();
+            return View(departements);
         }
 
         // GET: DepartementController/Details/5
