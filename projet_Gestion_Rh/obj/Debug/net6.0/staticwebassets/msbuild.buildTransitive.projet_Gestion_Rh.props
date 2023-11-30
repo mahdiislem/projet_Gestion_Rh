@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\projet_Gestion_Rh.props" />
+</Project>
