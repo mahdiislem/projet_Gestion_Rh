@@ -1,247 +1,371 @@
 {
   "Files": [
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\projet_Gestion_Rh.bundle.scp.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\projet_Gestion_Rh.bundle.scp.css",
       "PackagePath": "staticwebassets\\projet_Gestion_Rh.bundle.scp.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\css\\site.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\favicon.ico",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\js\\site.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\2189f304-86a4-4c6c-b7c4-dd308ef4cf2f_profile4.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\2189f304-86a4-4c6c-b7c4-dd308ef4cf2f_profile4.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\22305d64-36b2-43a2-ac9a-2e2e1a2b4f46_profile7.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\22305d64-36b2-43a2-ac9a-2e2e1a2b4f46_profile7.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\22392903-6cb3-4fc8-95b5-ba619d61b0ad_processusScrum.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\22392903-6cb3-4fc8-95b5-ba619d61b0ad_processusScrum.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\3486ba5a-fb1f-44f9-80cf-04e691a353d5_profile6.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\3486ba5a-fb1f-44f9-80cf-04e691a353d5_profile6.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\3ef3424d-d481-4292-8c2f-30ea94ee17db_cc3130f1-11d7-4d63-8829-0d1f49c65f39_profile1.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\3ef3424d-d481-4292-8c2f-30ea94ee17db_cc3130f1-11d7-4d63-8829-0d1f49c65f39_profile1.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\410632120_281457674456612_794490616599751209_n.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\410632120_281457674456612_794490616599751209_n.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\5da6a00b-f63f-4a2a-95ce-4d1b5299ec11_2189f304-86a4-4c6c-b7c4-dd308ef4cf2f_profile4.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\5da6a00b-f63f-4a2a-95ce-4d1b5299ec11_2189f304-86a4-4c6c-b7c4-dd308ef4cf2f_profile4.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\5da797f1-37d4-462c-a0e4-ab97af9c88a0_profile8.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\5da797f1-37d4-462c-a0e4-ab97af9c88a0_profile8.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\67abf3b1-e8c6-4f39-aa51-b60558f4f0ea_3486ba5a-fb1f-44f9-80cf-04e691a353d5_profile6.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\67abf3b1-e8c6-4f39-aa51-b60558f4f0ea_3486ba5a-fb1f-44f9-80cf-04e691a353d5_profile6.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\81c71113-3605-4c32-b6fa-280a8a13ffc6_CreatePoste.png",
+      "PackagePath": "staticwebassets\\image\\cover\\81c71113-3605-4c32-b6fa-280a8a13ffc6_CreatePoste.png"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\Gestion RH_lofin.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\Gestion RH_lofin.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\Gh.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\Gh.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\a0e1b514-7a02-4994-a37d-1c63cc244f17_Logo_Societe.png",
+      "PackagePath": "staticwebassets\\image\\cover\\a0e1b514-7a02-4994-a37d-1c63cc244f17_Logo_Societe.png"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\a69b4358-542a-4405-93f0-c01cac26a083_profile6.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\a69b4358-542a-4405-93f0-c01cac26a083_profile6.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\about.webp",
+      "PackagePath": "staticwebassets\\image\\cover\\about.webp"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\c3ba98bc-a66e-4dd6-896b-c684d930ead8_profile1.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\c3ba98bc-a66e-4dd6-896b-c684d930ead8_profile1.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\cc3130f1-11d7-4d63-8829-0d1f49c65f39_profile1.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\cc3130f1-11d7-4d63-8829-0d1f49c65f39_profile1.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\departement.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\departement.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\gestion-des-Ressources.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\gestion-des-Ressources.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\imagedepartement.png",
+      "PackagePath": "staticwebassets\\image\\cover\\imagedepartement.png"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\index RH Home.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\index RH Home.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile1.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile1.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile2.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile3.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile3.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile4.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile4.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile5.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile5.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile6.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile6.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile7.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile7.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile8.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile8.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile9.jpg",
+      "PackagePath": "staticwebassets\\image\\cover\\profile9.jpg"
+    },
+    {
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

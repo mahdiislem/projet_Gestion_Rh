@@ -1,0 +1,106 @@
+﻿@model projet_Gestion_Rh.Models.Poste
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            animation: gradientBackground 10s infinite;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style the form container */
+        .create-container {
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        /* Style the form */
+        .create-form {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #a7cbd9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            text-align: left; /* Center the form content */
+        }
+
+            /* Add hover effect to the form */
+            .create-form:hover {
+                transform: scale(1.05);
+            }
+
+            /* Style the form labels */
+            .create-form label {
+                font-weight: bold;
+            }
+
+            /* Style the form inputs */
+            .create-form input {
+                margin-bottom: 15px;
+            }
+
+            /* Style the form submit button */
+            .create-form .btn-primary {
+                width: 150px; /* Set a fixed width for the button */
+                background-color: #28a745; /* Green color */
+                color: white; /* White text color */
+                transition: transform 0.3s ease-in-out;
+
+            }
+
+                .create-form .btn-primary:hover {
+                    transform: scale(1.1);
+                }
+    </style>
+
+    <!-- Include Font Awesome stylesheet in the head of your HTML document -->
+</head>
+
+<body>
+
+    <h1 class="mb-4">Create Poste</h1>
+
+    <div class="create-container">
+        <form asp-action="Create" class="create-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Titre" class="control-label"></label>
+                <input asp-for="Titre" class="form-control" />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="salaire" class="control-label"></label>
+                <input asp-for="salaire" class="form-control" />
+                <span asp-validation-for="salaire" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+        <div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+            <a asp-action="Index" class="btn btn-outline-dark">
+                <i class="fas fa-caret-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>

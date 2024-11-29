@@ -3,75 +3,154 @@
 @{
     ViewData["Title"] = "Index";
 }
+<html>
 
-<h1>Index</h1>
+<head>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<style>
+<style>
+    body {
+        background-color: #e1e6ed;
+
+    }
+
+    .table tbody tr:nth-child(odd) {
+        background-color: #deecfa; /* Couleur de fond pour les lignes impaires */
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #a7cbd9; /* Couleur de fond pour les lignes paires */
+    }
+
+
+    .table th {
+        background-color: #264261; /* Couleur de fond pour les en-têtes de colonne */
+        color: white; /* Couleur du texte pour les en-têtes de colonne */
+    }
+    .btn-group a {
+        background-color: transparent; /* Set the background to transparent */
+        border: none; /* Remove border */
+    }
+
+    .btn-group a:hover i {
+        transform: scale(1.2);
+        transition: transform 0.3s ease-in-out;
+
+    }
+
+    .btn-group a i {
+        opacity: 0.7; /* Adjust the opacity to make the icons lighter */
+    }
+
+    .btn-group a.edit-btn:hover i {
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+    }
+
+    /* Add a blue background to the Details icon */
+    .btn-group a.details-btn:hover i {
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .btn-group a.delete-btn:hover i {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+    }
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" / >
+</style>
+</head>
+<body>
+
+    <h1 class="mb-4">
+        <i class="fas fa-calendar-alt"></i> Emlpoyee List
+    </h1>
+<p class="text-end">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+
+    <a asp-action="Create" class="btn btn-outline-dark">
+        Create New
+        <i class="fas fa-plus"></i>
+    </a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.nomPrenom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateNaissance)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.genre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telephone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Adresse)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateEmbauche)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Departement)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nomPrenom)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateNaissance)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.genre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telephone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Adresse)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateEmbauche)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Departement.description)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.EmployeId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.EmployeId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.EmployeId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container mt-4">
+    
+
+    <div class="table-responsive">
+        <table class="table table-sm table-striped table-bordered table-hover text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.NomPrenom)</th>
+                    <th>@Html.DisplayNameFor(model => model.DateNaissance)</th>
+                    <th>@Html.DisplayNameFor(model => model.Genre)</th>
+                    <th>@Html.DisplayNameFor(model => model.Telephone)</th>
+                    <th>@Html.DisplayNameFor(model => model.Adresse)</th>
+                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                    <th>@Html.DisplayNameFor(model => model.DateEmbauche)</th>
+                    <th>@Html.DisplayNameFor(model => model.Image)</th>
+                    <th>@Html.DisplayNameFor(model => model.Departement)</th>
+                    <th>@Html.DisplayNameFor(model => model.Poste)</th>
+
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NomPrenom)</td>
+                        <td>@Html.DisplayFor(modelItem => item.DateNaissance)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Genre)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Telephone)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Adresse)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td>@Html.DisplayFor(modelItem => item.DateEmbauche)</td>
+
+                        <td><img src="/@item.Image" style="width: 75px; height: 75px; padding: 5px;" alt="Employee image" /></td>
+                        <td>@Html.DisplayFor(modelItem => item.Departement.Nom)</td>
+                     <td>@Html.DisplayFor(modelItem => item.Poste.Titre)</td>
+
+                        <td>
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+
+                            <div class="btn-group btn-group-sm d-flex" role="group">
+                                <a asp-action="Edit" asp-route-id="@item.EmployeId" class="btn btn-secondary edit-btn">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-edit fa-lg" style="color: black;"></i>
+                                        <span class="ms-2"></span>
+                                    </div>
+                                </a>
+                                &nbsp;
+                                <a asp-action="Details" asp-route-id="@item.EmployeId" class="btn btn-secondary details-btn">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-info-circle fa-lg" style="color: black;"></i>
+                                        <span class="ms-2"></span>
+                                    </div>
+                                </a>
+
+                                &nbsp;
+                                <a asp-action="Delete" asp-route-id="@item.EmployeId" class="btn btn-secondary delete-btn">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-trash-alt fa-lg" style="color: black;"></i>
+                                        <span class="ms-2"></span>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </td>
+
+
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

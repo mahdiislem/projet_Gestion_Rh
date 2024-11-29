@@ -1,0 +1,155 @@
+﻿@model IEnumerable<projet_Gestion_Rh.Models.Conge>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Liens vers les bibliothèques externes -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1ZlG/UluYUAfxl+un/6Zci6TKy1t2ea" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-rbs5uRQxgLO5jvTF4Ic1z3NAepJ1DJGs5G04DCv9YOOj3UcQU6X3yKKtoMDOcYwE" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-cZI99CJTAIsOVXnV4D/Z9z3icrKQquDA9HPX5mkN5PBP2OV5EABhoBv7f6GxJ2GJ" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            animation: gradientBackground 10s infinite;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style the table */
+        .table {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            background-color: #a7cbd9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+            /* Style the table rows */
+            .table tbody tr:nth-child(odd) {
+                background-color: #f8f9fa;
+            }
+
+            /* Style the table headers */
+            .table th {
+                cursor: pointer;
+                transition: background-color 0.3s ease-in-out;
+            }
+
+                /* Add hover effect to table headers */
+                .table th:hover {
+                    background-color: #dce1e7;
+                }
+
+            /* Style the table cells */
+            .table td {
+                padding: 10px;
+            }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <h1 class="mb-4">
+        <i class="fas fa-calendar-alt"></i> Conge List
+    </h1>
+    <p class="text-end">
+
+        <button type="button" class="btn btn-outline-dark" onclick="window.location.href='@Url.Action("Create")'">
+            <i class="fas fa-plus"></i> Create New
+        </button>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th data-sort="Type" class="sortable">
+                    @Html.DisplayNameFor(model => model.Type)
+                </th>
+
+                <th data-sort="DateDebut" class="sortable">
+                    @Html.DisplayNameFor(model => model.DateDebut)
+                </th>
+                <th data-sort="DateFin" class="sortable">
+                    @Html.DisplayNameFor(model => model.DateFin)
+                </th>
+                <th data-sort="Status" class="sortable">
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th data-sort="Employe" class="sortable">
+                    @Html.DisplayNameFor(model => model.Employe)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Employe)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Duree) En jours
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateDebut)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateFin)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Employe.NomPrenom)
+                    </td>
+                    <td>
+                        <img src="/@item.Employe.Image" style="width: 75px; height: 75px; padding: 5px;" alt="Employee image" />
+                    </td>
+
+                    <td>
+                        <i class="far fa-clock"></i> @Html.DisplayFor(modelItem => item.Duree) jours
+                    <td class="d-flex justify-content-end mt-2">
+
+                        <style>
+                            .btn i {
+                                font-size: 1.5em; /* Ajustez la taille des icônes selon vos besoins */
+                                transition: transform 0.3s ease-in-out; /* Ajoutez une transition pour l'effet d'animation */
+                            }
+
+                            .btn:hover i {
+                                transform: scale(1.2); /* Modifiez la valeur pour ajuster le niveau de zoom au survol */
+                            }
+                        </style>
+
+                        <a asp-action="Edit" asp-route-id="@item.CongeId" class="btn">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.CongeId" class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </td>
+
+                    @* <td>
+                        <a asp-action="Edit" asp-route-id="@item.CongeId">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.CongeId">Delete</a>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+
+</html>

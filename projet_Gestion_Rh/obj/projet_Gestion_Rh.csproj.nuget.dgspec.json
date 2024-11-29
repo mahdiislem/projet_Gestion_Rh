@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {}
+    "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {}
   },
   "projects": {
-    "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {
+    "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+        "projectUniqueName": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
         "projectName": "projet_Gestion_Rh",
-        "projectPath": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\GitHub\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\",
+        "projectPath": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,12 +35,25 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -53,6 +67,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -84,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

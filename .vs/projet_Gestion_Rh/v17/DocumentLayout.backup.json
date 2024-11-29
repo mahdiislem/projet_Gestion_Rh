@@ -1,0 +1,871 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\employe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\employe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\controllers\\postecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\controllers\\postecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\controllers\\congecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\controllers\\congecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\controllers\\departementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\controllers\\departementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\conge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\conge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\iformatfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\iformatfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\departement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\departement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\conge\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\conge\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\employe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\employe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\poste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\poste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\wwwroot\\image\\cover\\profile2.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\wwwroot\\image\\cover\\profile2.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\models\\rhdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\models\\rhdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\employe\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\employe\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\employe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\employe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\conge\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\conge\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\conge\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\conge\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\poste\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\poste\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\conge\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\conge\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\poste\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\poste\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\employe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\employe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\departement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\departement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\poste\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\poste\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\departement\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\departement\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\departement\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\departement\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\views\\departement\\getemploye.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\views\\departement\\getemploye.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231211134220_hehehehrtm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231211134220_hehehehrtm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\projet_gestion_rh.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\projet_gestion_rh.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231211001241_djdjjkk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231211001241_djdjjkk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231210235819_djdjj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231210235819_djdjj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231210190045_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231210190045_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231210191528_heldldldl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231210191528_heldldldl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231211133900_hehehehrt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231211133900_hehehehrt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|c:\\2 glid\\dotnetfinal\\projet_gestion_rh\\projet_gestion_rh\\migrations\\20231211145807_shshshshhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1F2B65-A1FE-413C-B967-3BDD3DC6DB69}|projet_Gestion_Rh\\projet_Gestion_Rh.csproj|solutionrelative:projet_gestion_rh\\migrations\\20231211145807_shshshshhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeController.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\EmployeController.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Controllers\\EmployeController.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\EmployeController.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Controllers\\EmployeController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAAAGMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:56.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAawDYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAawD4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAGMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PosteController.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\PosteController.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Controllers\\PosteController.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\PosteController.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Controllers\\PosteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Index.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Employe\\Index.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Index.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Employe\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAASwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T22:58:54.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CongeController.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\CongeController.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Controllers\\CongeController.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\CongeController.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Controllers\\CongeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAHUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartementController.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\DepartementController.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Controllers\\DepartementController.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\DepartementController.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Controllers\\DepartementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Conge.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Conge.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\Conge.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Conge.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\Conge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Employe.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Employe.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\Employe.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Employe.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\Employe.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAYwDgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IFormatFile.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\IFormatFile.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\IFormatFile.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\IFormatFile.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\IFormatFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T22:28:43.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T22:29:00.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Departement.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Departement.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\Departement.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Departement.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\Departement.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Poste.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Poste.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\Poste.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\Poste.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\Poste.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Employe\\Edit.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Edit.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Employe\\Edit.cshtml",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAcwJIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Index.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Conge\\Index.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Index.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Conge\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Index.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Departement\\Index.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Index.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Departement\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAMwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Index.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Poste\\Index.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Index.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Poste\\Index.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAawE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAawMgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "profile2.jpg",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile2.jpg",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\wwwroot\\image\\cover\\profile2.jpg",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\profile2.jpg",
+              "RelativeToolTip": "projet_Gestion_Rh\\wwwroot\\image\\cover\\profile2.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2023-12-13T12:47:57.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg",
+              "RelativeToolTip": "projet_Gestion_Rh\\wwwroot\\image\\cover\\3806471c-9e31-4827-bf6c-724fec7f8d2f_im1.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2023-12-13T12:47:56.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Delete.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Employe\\Delete.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Delete.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Employe\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\appsettings.json",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\appsettings.json",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\appsettings.json",
+              "RelativeToolTip": "projet_Gestion_Rh\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-13T12:40:57.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RhDBContext.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\RhDBContext.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Models\\RhDBContext.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Models\\RhDBContext.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Models\\RhDBContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Details.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Employe\\Details.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Details.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Employe\\Details.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAcwCwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwBwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:56.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Delete.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Conge\\Delete.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Delete.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Conge\\Delete.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwDkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Conge\\Edit.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Edit.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Conge\\Edit.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAcwE8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Delete.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Poste\\Delete.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Delete.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Poste\\Delete.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAcwGkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Create.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Conge\\Create.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Conge\\Create.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Conge\\Create.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwFwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Poste\\Edit.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Edit.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Poste\\Edit.cshtml",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAcwGsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Create.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Employe\\Create.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Employe\\Create.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Employe\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Create.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Departement\\Create.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Create.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Departement\\Create.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Create.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Poste\\Create.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Poste\\Create.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Poste\\Create.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAcwGIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Departement\\Edit.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Edit.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Departement\\Edit.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwC0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Delete.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Departement\\Delete.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\Delete.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Departement\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetEmploye.cshtml",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\GetEmploye.cshtml",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Views\\Departement\\GetEmploye.cshtml",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Views\\Departement\\GetEmploye.cshtml",
+              "RelativeToolTip": "projet_Gestion_Rh\\Views\\Departement\\GetEmploye.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-13T12:40:57.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20231211145807_shshshshhs.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211145807_shshshshhs.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231211145807_shshshshhs.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211145807_shshshshhs.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231211145807_shshshshhs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20231211134220_hehehehrtm.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211134220_hehehehrtm.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231211134220_hehehehrtm.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211134220_hehehehrtm.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231211134220_hehehehrtm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20231211133900_hehehehrt.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211133900_hehehehrt.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231211133900_hehehehrt.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211133900_hehehehrt.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231211133900_hehehehrt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20231211001241_djdjjkk.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211001241_djdjjkk.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231211001241_djdjjkk.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231211001241_djdjjkk.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231211001241_djdjjkk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20231210235819_djdjj.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231210235819_djdjj.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231210235819_djdjj.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231210235819_djdjj.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231210235819_djdjj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20231210190045_identity.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231210190045_identity.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231210190045_identity.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231210190045_identity.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231210190045_identity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20231210191528_heldldldl.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231210191528_heldldldl.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Migrations\\20231210191528_heldldldl.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Migrations\\20231210191528_heldldldl.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Migrations\\20231210191528_heldldldl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Program.cs",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\Program.cs",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\Program.cs",
+              "RelativeToolTip": "projet_Gestion_Rh\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-13T12:40:57.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "projet_Gestion_Rh\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2023-12-13T12:40:57.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "projet_Gestion_Rh.csproj",
+              "DocumentMoniker": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+              "RelativeDocumentMoniker": "projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+              "ToolTip": "C:\\2 GLID\\dotnetFinal\\projet_Gestion_Rh\\projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+              "RelativeToolTip": "projet_Gestion_Rh\\projet_Gestion_Rh.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-13T12:40:57.156Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
