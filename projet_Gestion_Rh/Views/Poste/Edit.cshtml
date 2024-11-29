@@ -1,0 +1,114 @@
+﻿@model projet_Gestion_Rh.Models.Poste
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            animation: gradientBackground 10s infinite;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style the form container */
+        .edit-container {
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        /* Style the form */
+        .edit-form {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #a7cbd9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            text-align: center; /* Center the form content */
+        }
+
+            /* Add hover effect to the form */
+            .edit-form:hover {
+                transform: scale(1.05);
+            }
+
+            /* Style the form labels */
+            .edit-form label {
+                font-weight: bold;
+            }
+
+            /* Style the form inputs */
+            .edit-form input {
+                margin-bottom: 15px;
+            }
+
+            /* Style the form buttons */
+            .edit-form .btn-primary {
+                width: 150px; /* Set a fixed width for the button */
+                background-color: #4deb7f; /* Blue color */
+                color: white; /* White text color */
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .edit-form .btn-primary:hover {
+                    transform: scale(1.1);
+                }
+
+            .edit-form .btn-back {
+                width: 150px; /* Set a fixed width for the button */
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .edit-form .btn-back:hover {
+                    transform: scale(1.1);
+                }
+    </style>
+
+    <!-- Include Font Awesome stylesheet in the head of your HTML document -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <h1 class="mb-4">Edit Poste</h1>
+
+    <div class="edit-container">
+        <form asp-action="Edit" class="edit-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PosteId" />
+            <div class="form-group">
+                <label asp-for="Titre" class="control-label"></label>
+                <input asp-for="Titre" class="form-control" />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="salaire" class="control-label"></label>
+                <input asp-for="salaire" class="form-control" />
+                <span asp-validation-for="salaire" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-outline-dark btn-back">
+                <i class="fas fa-caret-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>

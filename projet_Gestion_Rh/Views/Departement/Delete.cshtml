@@ -1,0 +1,43 @@
+﻿@model projet_Gestion_Rh.Models.Departement
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container mt-5">
+    <h1>Delete Departement</h1>
+    <hr />
+
+    <div class="card mt-3">
+        <div class="card-body">
+            <h3 class="card-title">Are you sure you want to delete this?</h3>
+            <dl class="row mt-3">
+                <dt class="col-sm-3">Departement Name:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Nom)</dd>
+
+                <dt class="col-sm-3">Description:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                <dt class="col-sm-3">Responsable Name:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NomResponsable)</dd>
+            </dl>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+                    <a asp-action="Index" class="btn btn-outline-success">
+                        <i class="fas fa-caret-left"></i> Back to Departements
+                    </a>
+                </div>
+                <div class="col-md-6 text-start">
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="DepartementId" />
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash-alt"></i> Delete
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,62 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "About Us";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Ajoutez vos liens vers les fichiers CSS ou Bootstrap ici si nécessaire -->
+    <style>
+        /* Ajoutez du style CSS pour la barrière d'images */
+        .image-barrier {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+            .image-barrier img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                margin: 0 10px;
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-barrier img:hover {
+                    transform: scale(1.2);
+                }
+    </style>
+</head>
+<body>
+
+    <h1>@ViewData["Title"]</h1>
+
+    <p>
+        Bienvenue sur notre plateforme dédiée à la gestion des ressources humaines ! Notre mission est de simplifier et d'optimiser les processus liés aux ressources humaines au sein de votre entreprise.
+    </p>
+
+    <p>
+        Que vous soyez un responsable RH, un gestionnaire d'équipe ou un employé, notre site offre des fonctionnalités complètes pour faciliter la gestion du personnel, des congés, des formations et bien plus encore.
+    </p>
+
+    <p>
+        Notre site est conçu pour simplifier la vie des professionnels des RH, en offrant des outils puissants et conviviaux pour gérer efficacement les ressources humaines de votre organisation. Explorez nos fonctionnalités et découvrez comment nous pouvons contribuer à l'efficacité et à la croissance de votre entreprise.
+    </p>
+
+    <!-- Barrière d'images -->
+    <div class="image-barrier">
+        <img src="/image/cover/gestion-des-Ressources.jpg" alt="Image 1">
+        <img src="/image/cover/about.webp" alt="Image 2">
+        <img src="/image/cover/Gh.jpg" alt="Image 3">
+
+        <!-- Ajoutez autant d'images que nécessaire -->
+    </div>
+
+    <!-- Ajoutez d'autres contenus ou sections au besoin -->
+    <!-- Ajoutez vos scripts JavaScript ici si nécessaire -->
+</body>
+</html>

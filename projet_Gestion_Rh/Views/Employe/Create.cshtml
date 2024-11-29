@@ -4,60 +4,127 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<style>
+    body {
+        background-color: #e6f0ff;
+    }
+    fieldset {
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
 
-<h4>Employe</h4>
+    legend {
+        padding: 5px 10px;
+        border: 1px solid gray;
+        background-color: #f5f5f5;
+    }
+</style>
+
+<h1>Create Employee</h1>
 <hr />
+
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+    <div class="col-md-12">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="nomPrenom" class="control-label"></label>
-                <input asp-for="nomPrenom" class="form-control" />
-                <span asp-validation-for="nomPrenom" class="text-danger"></span>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" asp-for="NomPrenom">Full Name</label>
+                    <div class="col-md-4">
+                        <input asp-for="NomPrenom" class="form-control" placeholder="Enter full name" />
+                        <span asp-validation-for="NomPrenom" class="text-danger"></span>
+                    </div>
+
+                    <label class="col-md-2 col-form-label" asp-for="DateNaissance">Date of Birth</label>
+                    <div class="col-md-4">
+                        <input asp-for="DateNaissance" type="Date" class="form-control" />
+                        <span asp-validation-for="DateNaissance" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" asp-for="Genre">Gender</label>
+                    <div class="col-md-4">
+                        <div>
+                            <label class="radio-inline">
+                                <input asp-for="Genre" type="radio" value="Homme" /> Male
+                            </label>
+                            <label class="radio-inline">
+                                <input asp-for="Genre" type="radio" value="Femme" /> Female
+                            </label>
+                        </div>
+                        <span asp-validation-for="Genre" class="text-danger"></span>
+                    </div>
+
+                    <label class="col-md-2 col-form-label" asp-for="Telephone">Telephone</label>
+                    <div class="col-md-4">
+                        <input asp-for="Telephone" class="form-control" />
+                        <span asp-validation-for="Telephone" class="text-danger"></span>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" asp-for="Adresse">Address</label>
+                    <div class="col-md-4">
+                        <input asp-for="Adresse" class="form-control" />
+                        <span asp-validation-for="Adresse" class="text-danger"></span>
+                    </div>
+
+                    <label class="col-md-2 col-form-label" asp-for="Email">Email</label>
+                    <div class="col-md-4">
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Employment Information</legend>
+
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" asp-for="DateEmbauche">Date of Hiring</label>
+                    <div class="col-md-4">
+                        <input asp-for="DateEmbauche" type="Date" class="form-control" />
+                        <span asp-validation-for="DateEmbauche" class="text-danger"></span>
+                    </div>
+
+                    <label class="col-md-2 col-form-label" asp-for="DepartementId">Department</label>
+                    <div class="col-md-4">
+                        <select asp-for="DepartementId" class="form-control" asp-items="@(new SelectList(ViewBag.DepartementsList,"DepartementId","Nom"))"></select>
+                    </div>
+         <label class="col-md-2 col-form-label" asp-for="PosteId">Poste</label>
+                    <div class="col-md-4">
+                        <select asp-for="PosteId" class="form-control"  asp-items="@(new SelectList(ViewBag.PostesList,"PosteId","Titre"))"></select>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Profile Image</legend>
+
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" asp-for="imageFile">Choose Profile Image</label>
+                    <div class="col-md-4 custom-file">
+                        <input asp-for="imageFile" type="file" class="form-control" />
+                        <label class="custom-file-label">Choose file</label>
+                        <span asp-validation-for="imageFile" class="text-danger"></span>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="form-group row">
+                <div class="col-md-12 text-end" >
+                    <input type="submit" value="Create" class="btn btn-success" />
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="DateNaissance" class="control-label"></label>
-                <input asp-for="DateNaissance" class="form-control" />
-                <span asp-validation-for="DateNaissance" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="genre" class="control-label"></label>
-                <input asp-for="genre" class="form-control" />
-                <span asp-validation-for="genre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Telephone" class="control-label"></label>
-                <input asp-for="Telephone" class="form-control" />
-                <span asp-validation-for="Telephone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Adresse" class="control-label"></label>
-                <input asp-for="Adresse" class="form-control" />
-                <span asp-validation-for="Adresse" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="email" class="control-label"></label>
-                <input asp-for="email" class="form-control" />
-                <span asp-validation-for="email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DateEmbauche" class="control-label"></label>
-                <input asp-for="DateEmbauche" class="form-control" />
-                <span asp-validation-for="DateEmbauche" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DepartementId" class="control-label"></label>
-                <select asp-for="DepartementId" class ="form-control" asp-items="@(new SelectList(ViewBag.DepartementsList,"DepartementId","nom"))"></select>
-            </div>
-@*             <div class="form-group">
-                <label asp-for="DepartementId" class="control-label"></label>
-                <select asp-for="DepartementId" class ="form-control" asp-items="ViewBag.DepartementId"></select>
-            </div> *@
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+       
         </form>
     </div>
 </div>
@@ -67,5 +134,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

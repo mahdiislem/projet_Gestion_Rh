@@ -1,0 +1,107 @@
+﻿@model projet_Gestion_Rh.Models.Conge
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+
+    /* Style pour le formulaire */
+    .center-form {
+        background-color: #d8e1eb; /* Couleur de fond */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        margin: auto; /* Centre horizontalement */
+        width: 70%; /* Largeur du formulaire */
+    }
+
+    /* Style pour le titre de la carte */
+    .card-title {
+        color: #264261; /* Couleur du texte */
+    }
+
+    /* Hover effect pour le formulaire */
+    .center-form:hover {
+        transform: scale(1.05);
+    }
+</style>
+<div class="card center-form">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+    <div class="card-body">
+        <h4 class="card-title"><i class="fas fa-calendar-plus"></i> Demande de Congé</h4>
+        <hr />
+
+        <div class="row">
+            <div class="col-md-6">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="Type" class="control-label"><strong>Type de Congé</strong></label>
+                        <select asp-for="Type" class="form-control">
+                            <option value="Congés payés">Congés payés</option>
+                            <option value="Congés maladie">Congés maladie</option>
+                            <option value="Congés de maternité et de paternité">Congés de maternité et de paternité</option>
+                            <option value="Congés familiaux">Congés familiaux</option>
+                            <option value="Congés sans solde">Congés sans solde</option>
+                            <option value="Congés sabbatiques">Congés sabbatiques</option>
+                            <option value="Congés spéciaux">Congés spéciaux</option>
+                            <option value="Congés pour formation">Congés pour formation</option>
+                        </select>
+                        <span asp-validation-for="Type" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DateDebut" class="control-label"><strong>Date de Début</strong></label>
+                        <input asp-for="DateDebut" type="date" class="form-control" />
+                        <span asp-validation-for="DateDebut" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DateFin" class="control-label"><strong>Date de Fin</strong></label>
+                        <input asp-for="DateFin" type="date" class="form-control" />
+                        <span asp-validation-for="DateFin" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Status" class="control-label"><strong>Statut</strong></label>
+                        <input asp-for="Status" class="form-control" />
+                        <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="EmployeId" class="control-label"><strong>Employé</strong></label>
+                        <select asp-for="EmployeId" class="form-control" asp-items="@(new SelectList(ViewBag.EmployesList, "EmployeId", "NomPrenom"))"></select>
+                        <span asp-validation-for="EmployeId" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div class="mt-3">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+
+                            <a asp-action="Index" class="btn btn-outline-success">
+                                <i class="fas fa-caret-left"></i> Back to List
+                            </a>
+                        </div>
+                        <div class="mt-3">
+                            <input type="submit" value="Create" class="btn btn-outline-primary" />
+                        </div>
+                        
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

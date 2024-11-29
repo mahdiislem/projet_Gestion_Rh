@@ -1,0 +1,66 @@
+﻿@model projet_Gestion_Rh.Models.Departement
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-5">
+    <h1>Edit Departement</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form asp-action="Edit" method="post" class="mt-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="Nom" class="control-label">
+                        <strong>Departement Name</strong>
+                    </label>
+                    <input asp-for="Nom" class="form-control" />
+                    <span asp-validation-for="Nom" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">
+                        <strong>Description</strong>
+                    </label>
+                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="NomResponsable" class="control-label">
+                        <strong>Responsable Name</strong>
+                    </label>
+                    <input asp-for="NomResponsable" class="form-control" />
+                    <span asp-validation-for="NomResponsable" class="text-danger"></span>
+                </div>
+
+                <div class="mt-5">
+                    <div class="row">
+                        <div class="col-md-6 text-end">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-***" crossorigin="anonymous" />
+                            <a asp-action="Index" class="btn btn-outline-dark">
+                                <i class="fas fa-caret-left"></i> Back to Departements
+                            </a>
+                        </div>
+                        <div class="col-md-6 text-start">
+                            <div class="form-group mb-5">
+                                <!-- Increased margin-bottom -->
+                                <button type="submit" class="btn btn-success">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
